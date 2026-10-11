@@ -1,0 +1,464 @@
+{
+  "best_model_name": "Gradient Boosting",
+  "model_comparison": {
+    "Linear Regression": {
+      "MAE": 0.898,
+      "MSE": 1.311,
+      "RMSE": 1.145,
+      "R2": 0.987,
+      "top_features": [
+        {
+          "feature": "player_rating",
+          "importance": 44.79
+        },
+        {
+          "feature": "passing_score",
+          "importance": 9.38
+        },
+        {
+          "feature": "age",
+          "importance": 6.81
+        },
+        {
+          "feature": "attacking_score",
+          "importance": 5.43
+        },
+        {
+          "feature": "progressive_passes_per_90",
+          "importance": 5.36
+        },
+        {
+          "feature": "goals_per_90",
+          "importance": 3.65
+        },
+        {
+          "feature": "previous_season_rating",
+          "importance": 2.49
+        },
+        {
+          "feature": "goals",
+          "importance": 2.18
+        },
+        {
+          "feature": "overall_performance_score",
+          "importance": 1.93
+        },
+        {
+          "feature": "shots_on_target",
+          "importance": 1.89
+        },
+        {
+          "feature": "save_percentage",
+          "importance": 1.69
+        },
+        {
+          "feature": "injury_days",
+          "importance": 1.57
+        }
+      ],
+      "sample_predictions": [
+        96.19,
+        94.11,
+        97.38,
+        95.87,
+        93.13,
+        93.16,
+        83.8,
+        95.28,
+        97.32,
+        93.06
+      ],
+      "sample_actuals": [
+        95.0,
+        95.0,
+        95.0,
+        94.4,
+        94.8,
+        92.5,
+        83.0,
+        94.3,
+        95.0,
+        94.1
+      ]
+    },
+    "Random Forest": {
+      "MAE": 0.954,
+      "MSE": 1.533,
+      "RMSE": 1.238,
+      "R2": 0.9848,
+      "top_features": [
+        {
+          "feature": "player_rating",
+          "importance": 96.39
+        },
+        {
+          "feature": "age",
+          "importance": 2.33
+        },
+        {
+          "feature": "injury_days",
+          "importance": 0.12
+        },
+        {
+          "feature": "previous_season_rating",
+          "importance": 0.08
+        },
+        {
+          "feature": "pass_accuracy",
+          "importance": 0.05
+        },
+        {
+          "feature": "progression_score",
+          "importance": 0.05
+        },
+        {
+          "feature": "tackles_per_90",
+          "importance": 0.05
+        },
+        {
+          "feature": "overall_performance_score",
+          "importance": 0.04
+        },
+        {
+          "feature": "passes",
+          "importance": 0.04
+        },
+        {
+          "feature": "aerial_duels_won",
+          "importance": 0.04
+        },
+        {
+          "feature": "interceptions_per_90",
+          "importance": 0.04
+        },
+        {
+          "feature": "recoveries",
+          "importance": 0.04
+        }
+      ],
+      "sample_predictions": [
+        94.95,
+        94.68,
+        94.68,
+        94.92,
+        94.39,
+        93.83,
+        84.93,
+        93.28,
+        94.41,
+        92.39
+      ],
+      "sample_actuals": [
+        95.0,
+        95.0,
+        95.0,
+        94.4,
+        94.8,
+        92.5,
+        83.0,
+        94.3,
+        95.0,
+        94.1
+      ]
+    },
+    "Gradient Boosting": {
+      "MAE": 0.865,
+      "MSE": 1.214,
+      "RMSE": 1.102,
+      "R2": 0.988,
+      "top_features": [
+        {
+          "feature": "player_rating",
+          "importance": 96.49
+        },
+        {
+          "feature": "age",
+          "importance": 2.67
+        },
+        {
+          "feature": "injury_days",
+          "importance": 0.18
+        },
+        {
+          "feature": "minutes_played",
+          "importance": 0.05
+        },
+        {
+          "feature": "previous_season_rating",
+          "importance": 0.04
+        },
+        {
+          "feature": "distance_covered",
+          "importance": 0.04
+        },
+        {
+          "feature": "sprint_count",
+          "importance": 0.03
+        },
+        {
+          "feature": "tackles_per_90",
+          "importance": 0.03
+        },
+        {
+          "feature": "progression_score",
+          "importance": 0.03
+        },
+        {
+          "feature": "overall_performance_score",
+          "importance": 0.02
+        },
+        {
+          "feature": "progressive_passes_per_90",
+          "importance": 0.02
+        },
+        {
+          "feature": "starts",
+          "importance": 0.02
+        }
+      ],
+      "sample_predictions": [
+        94.95,
+        94.62,
+        94.54,
+        94.78,
+        93.35,
+        93.72,
+        84.47,
+        93.56,
+        94.51,
+        93.25
+      ],
+      "sample_actuals": [
+        95.0,
+        95.0,
+        95.0,
+        94.4,
+        94.8,
+        92.5,
+        83.0,
+        94.3,
+        95.0,
+        94.1
+      ]
+    },
+    "XGBoost": {
+      "MAE": 0.897,
+      "MSE": 1.307,
+      "RMSE": 1.143,
+      "R2": 0.987,
+      "top_features": [
+        {
+          "feature": "player_rating",
+          "importance": 56.82
+        },
+        {
+          "feature": "previous_season_rating",
+          "importance": 36.03
+        },
+        {
+          "feature": "age",
+          "importance": 2.55
+        },
+        {
+          "feature": "injury_days",
+          "importance": 0.28
+        },
+        {
+          "feature": "progression_score",
+          "importance": 0.15
+        },
+        {
+          "feature": "clean_sheets",
+          "importance": 0.15
+        },
+        {
+          "feature": "attacking_score",
+          "importance": 0.15
+        },
+        {
+          "feature": "minutes_played",
+          "importance": 0.15
+        },
+        {
+          "feature": "distance_covered",
+          "importance": 0.14
+        },
+        {
+          "feature": "overall_performance_score",
+          "importance": 0.13
+        },
+        {
+          "feature": "yellow_cards",
+          "importance": 0.13
+        },
+        {
+          "feature": "sprint_count",
+          "importance": 0.13
+        }
+      ],
+      "sample_predictions": [
+        94.56,
+        93.81,
+        94.34,
+        94.65,
+        92.21,
+        93.77,
+        84.4,
+        93.48,
+        94.03,
+        93.19
+      ],
+      "sample_actuals": [
+        95.0,
+        95.0,
+        95.0,
+        94.4,
+        94.8,
+        92.5,
+        83.0,
+        94.3,
+        95.0,
+        94.1
+      ]
+    }
+  },
+  "feature_cols": [
+    "age",
+    "appearances",
+    "minutes_played",
+    "starts",
+    "goals",
+    "assists",
+    "shots",
+    "shots_on_target",
+    "passes",
+    "pass_accuracy",
+    "key_passes",
+    "chances_created",
+    "tackles",
+    "interceptions",
+    "clearances",
+    "blocks",
+    "recoveries",
+    "aerial_duels_won",
+    "defensive_actions",
+    "dribbles",
+    "successful_dribbles",
+    "progressive_carries",
+    "progressive_passes",
+    "distance_covered",
+    "sprint_count",
+    "fouls",
+    "yellow_cards",
+    "saves",
+    "save_percentage",
+    "clean_sheets",
+    "goals_conceded",
+    "player_rating",
+    "previous_season_rating",
+    "injury_days",
+    "goals_per_90",
+    "assists_per_90",
+    "key_passes_per_90",
+    "tackles_per_90",
+    "interceptions_per_90",
+    "progressive_passes_per_90",
+    "attacking_score",
+    "defensive_score",
+    "passing_score",
+    "progression_score",
+    "overall_performance_score"
+  ],
+  "clustering_metadata": {
+    "n_clusters": 5,
+    "silhouette_score": 0.213,
+    "explained_variance_ratio_2d": [
+      0.328,
+      0.256
+    ],
+    "cluster_profiles": {
+      "0": {
+        "name": "Dynamic All-Rounders",
+        "count": 417,
+        "avg_attacking": 18.5,
+        "avg_defensive": 19.2,
+        "avg_passing": 26.5,
+        "avg_progression": 19.6,
+        "top_players": [
+          "Alphonso Davies",
+          "Theo Silva",
+          "Alisson Becker"
+        ]
+      },
+      "1": {
+        "name": "Dynamic All-Rounders",
+        "count": 622,
+        "avg_attacking": 36.7,
+        "avg_defensive": 25.9,
+        "avg_passing": 44.2,
+        "avg_progression": 29.0,
+        "top_players": [
+          "Jeremie Garcia",
+          "Jude Bellingham",
+          "Warren Musiala"
+        ]
+      },
+      "2": {
+        "name": "Dynamic All-Rounders",
+        "count": 724,
+        "avg_attacking": 22.5,
+        "avg_defensive": 29.5,
+        "avg_passing": 32.8,
+        "avg_progression": 24.9,
+        "top_players": [
+          "William Saliba",
+          "Bukayo Smith",
+          "William Saliba"
+        ]
+      },
+      "3": {
+        "name": "Dynamic All-Rounders",
+        "count": 547,
+        "avg_attacking": 35.3,
+        "avg_defensive": 18.2,
+        "avg_passing": 31.9,
+        "avg_progression": 25.2,
+        "top_players": [
+          "Erling Haaland",
+          "Erling Haaland",
+          "Jude Bellingham"
+        ]
+      },
+      "4": {
+        "name": "Dynamic All-Rounders",
+        "count": 118,
+        "avg_attacking": 40.0,
+        "avg_defensive": 32.5,
+        "avg_passing": 61.5,
+        "avg_progression": 45.6,
+        "top_players": [
+          "Jamal Musiala",
+          "Pedri Valverde",
+          "Gabriel Tchouam\u00e9ni"
+        ]
+      }
+    },
+    "feature_cols": [
+      "goals_per_90",
+      "assists_per_90",
+      "shots_on_target_per_90",
+      "key_passes_per_90",
+      "tackles_per_90",
+      "interceptions_per_90",
+      "clearances_per_90",
+      "recoveries_per_90",
+      "progressive_carries_per_90",
+      "progressive_passes_per_90",
+      "successful_dribbles_per_90",
+      "attacking_score",
+      "defensive_score",
+      "passing_score",
+      "progression_score"
+    ]
+  }
+}
